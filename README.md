@@ -1,5 +1,17 @@
-# @stackr23/gitmoji-conventional-commits
+# @stackr23/gitmoji-conventional-commits 
 > add gitmojis to conventional commit messages
+
+[![PRs Welcome][pr-welcome]](http://makeapullrequest.com)
+[![Maintenance][maintenance-img]][maintenance-url]
+[![GitMoji][gitmoji-img]][gitmoji-url]
+
+<!-- badge urls -->
+[gitmoji-img]: https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square  
+[gitmoji-url]: https://gitmoji.carloscuesta.me  
+[maintenance-img]: https://img.shields.io/badge/Maintained%3F-yes-green.svg
+[maintenance-url]: https://GitHub.com/stackR23/react23/graphs/commit-activity
+[pr-welcome]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+<!-- /badge urls -->
 
 ## relation table  
 > to be continued
