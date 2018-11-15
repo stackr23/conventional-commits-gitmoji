@@ -9,3 +9,5 @@
 // https://github.com/stackr23/gitmoji-conventional-commits
 
 import path from 'path'
+
+console.log('🎊 Babel7 running!')

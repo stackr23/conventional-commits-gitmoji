@@ -4,7 +4,7 @@
   "description": "add gitmojis to conventional commit messages",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "node ./src/indexBabelRegister.js"
   },
   "repository": {
     "type": "git",
