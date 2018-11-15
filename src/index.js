@@ -16,4 +16,5 @@
 // Logger.log('{reset.magenta custom {bgBlackBright.yellow output style}}')
 
 import _config from './config'
+export const config = _config
 export default _config

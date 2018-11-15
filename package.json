@@ -1,11 +1,16 @@
 {
   "name": "@stackr23/gitmoji-conventional-commits",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "add gitmojis to conventional commit messages",
-  "main": "src/index.js",
-  "directories": ["src", "utils", "utils"],
+  "main": "./dist/index.js",
+  "directories": [
+    "src",
+    "utils",
+    "utils"
+  ],
   "scripts": {
-    "test": "node ./src/indexBabelRegister.js"
+    "test": "node ./test/index.js",
+    "build": "bash ./build.sh"
   },
   "repository": {
     "type": "git",
@@ -25,9 +30,11 @@
   },
   "homepage": "https://github.com/stackr23/gitmoji-conventional-commits#readme",
   "devDependencies": {
+    "@babel/cli": "^7.1.5",
     "@babel/core": "^7.1.6",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
     "@babel/preset-env": "^7.1.6",
-    "@babel/register": "^7.0.0"
+    "@babel/register": "^7.0.0",
+    "babel-preset-minify": "^0.5.0"
   }
 }
