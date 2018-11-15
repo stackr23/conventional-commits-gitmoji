@@ -8,7 +8,7 @@
 
 <!-- badge urls - colors: #44CC11, #FFDD67, #FF5A79 -->
 
-[gitmoji-img]: https://img.shields.io/badge/%F0%9F%98%BB-gitmoji-FFDD67.svg?style=flat-square  
+[gitmoji-img]: https://img.shields.io/badge/%F0%9F%98%BB-gitmoji-FFDD67.svg?style=flat-square?style=flat-square  
 [gitmoji-url]: https://gitmoji.carloscuesta.me  
 [maintenance-img]: https://img.shields.io/badge/Maintained%3F-yes-green.svg
 [maintenance-url]: https://GitHub.com/stackR23/react23/graphs/commit-activity
