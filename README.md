@@ -1,4 +1,4 @@
-# @stackr23/conventionalcommits-gitmoji
+# @stackr23/conventional-commits-gitmoji
 > git workflow enhancements and third party integrations
 
 ## [proposal] [conventionalcommits](https://www.conventionalcommits.org/) - [gitmoji](https://gitmoji.carloscuesta.me/) hook
@@ -20,7 +20,7 @@
   make a conventionalcommits feature, if not possible  
 
 ## ohter conventional-commit tools
-> should be considered into compatibility specations of @stackr23/conventionalcommits-gitmoji
+> should be considered into compatibility specations of @stackr23/conventional-commits-gitmoji
 
 * [semantic-release](https://github.com/semantic-release/semantic-release)  
 * commitlint / [@commitlint/config-conventional](https://www.npmjs.com/package/@commitlint/config-conventional)  
