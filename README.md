@@ -1,5 +1,5 @@
 # @stackr23/conventional-commits-gitmoji
-> git workflow enhancements and third party integrations
+> add gitmojis to conventional commit messages
 
 ## relation table  
 > to be continued
@@ -15,11 +15,18 @@
 ## [proposal] [conventionalcommits](https://www.conventionalcommits.org/) - [gitmoji](https://gitmoji.carloscuesta.me/) hook  
 * write npm plugin that creates a git-hook to prefix "structural elements" with gitmojis:  
   `fix: #33 header menu open()` => `:bug: fix: #33 header menu open()`
+* integrations / usage
+  * __git hook__ - just register hook and filter commit message  
+  * __gitmoji-cli__ - see issue #2  
+  * standalone raw parser  
+    like in [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)
 
 ## roadmap
 * [ ] __1. - analyse [conventionalcommits](https://www.conventionalcommits.org/)__  
-  * [ ] define type of plugin (middleware, plugin, ...?)    
-    standalone hook __|__ conventionalcommits-plugin __|__ add gitmoji feature "replace" (not recommended)
+  * [ ] define type of plugin (middleware, plugin, ...?)  
+  * as this feature is mainly related to gitmoji (more than to other packages),  
+  it __should be named gitmoji-conventional(-commits)__  
+  standalone hook __|__ conventionalcommits-plugin __|__ add gitmoji feature "replace" (not recommended)
 * [ ] __2. - sync config with gitmoji__  
   * [ ] add "conventionalcommits.mapping.js" to gitmoji  
   ```javascript
