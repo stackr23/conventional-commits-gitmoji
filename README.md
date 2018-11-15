@@ -5,8 +5,10 @@
 [![Maintenance][maintenance-img]][maintenance-url]
 [![GitMoji][gitmoji-img]][gitmoji-url]
 
-<!-- badge urls -->
-[gitmoji-img]: https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square  
+<!-- badge urls - colors: #44CC11, #FFDD67, #FF5A79 -->
+
+[gitmoji-img]: https://img.shields.io/badge/gitmoji-%20😻-FF5A79.svg?style=flat-square  
+[gitmoji-img2]: https://img.shields.io/badge/%20🐛%20✨%20💥-gitmoji-FF5A79.svg?style=flat-square  
 [gitmoji-url]: https://gitmoji.carloscuesta.me  
 [maintenance-img]: https://img.shields.io/badge/Maintained%3F-yes-green.svg
 [maintenance-url]: https://GitHub.com/stackR23/react23/graphs/commit-activity
