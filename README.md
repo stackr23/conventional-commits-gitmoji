@@ -18,3 +18,10 @@
 
 * [ ] __3. - create commit hook to filter commit messages__  
   make a conventionalcommits feature, if not possible  
+
+## ohter conventional-commit tools
+> should be considered into compatibility specations of @stackr23/conventionalcommits-gitmoji
+
+* [semantic-release](https://github.com/semantic-release/semantic-release)  
+* commitlint / [@commitlint/config-conventional](https://www.npmjs.com/package/@commitlint/config-conventional)  
+* [conventional changelog](https://github.com/conventional-changelog/conventional-changelog)  
