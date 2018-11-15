@@ -1,4 +1,4 @@
-# @stackr23/conventional-commits-gitmoji
+# @stackr23/gitmoji-conventional-commits
 > add gitmojis to conventional commit messages
 
 ## relation table  
@@ -19,7 +19,7 @@
   * __git hook__ - just register hook and filter commit message  
   * __gitmoji-cli__ - see issue #2  
   * standalone raw parser  
-    like in [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)
+    like in [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)'s sub-packages
 
 ## roadmap
 * [ ] __1. - analyse [conventionalcommits](https://www.conventionalcommits.org/)__  
@@ -38,7 +38,7 @@
   make a conventionalcommits feature, if not possible  
 
 ## other conventional-commit tools
-> should be considered into compatibility specations of @stackr23/conventional-commits-gitmoji
+> should be considered into compatibility specations of @stackr23/gitmoji-conventional-commits
 
 * [semantic-release](https://github.com/semantic-release/semantic-release)  
 * commitlint / [@commitlint/config-conventional](https://www.npmjs.com/package/@commitlint/config-conventional)  
