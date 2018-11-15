@@ -3,6 +3,7 @@
 
 [![PRs Welcome][pr-welcome]](http://makeapullrequest.com)
 [![Maintenance][maintenance-img]][maintenance-url]
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 [![GitMoji][gitmoji-img]][gitmoji-url]
 
 <!-- badge urls - colors: #44CC11, #FFDD67, #FF5A79 -->
