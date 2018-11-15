@@ -8,9 +8,12 @@
 // (c) by Stefan Friedl - GNU LGPLv3
 // https://github.com/stackr23/gitmoji-conventional-commits
 
-import Logger from '../utils/stackr23-logger/'
+// import Logger from '../utils/stackr23-logger/'
 
-Logger.success('logger running!')
-Logger.error('unexpected bahavior')
-Logger.debug('casual debug info')
-Logger.log('{reset.magenta custom {bgBlackBright.yellow output style}}')
+// Logger.success('logger running!')
+// Logger.error('unexpected bahavior')
+// Logger.debug('casual debug info')
+// Logger.log('{reset.magenta custom {bgBlackBright.yellow output style}}')
+
+import _config from './config'
+export default _config

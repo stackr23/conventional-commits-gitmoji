@@ -1,8 +1,9 @@
 {
-  "name": "gitmoji-conventional-commits",
+  "name": "@stackr23/gitmoji-conventional-commits",
   "version": "1.0.0",
   "description": "add gitmojis to conventional commit messages",
-  "main": "index.js",
+  "main": "src/index.js",
+  "directories": ["src", "utils", "utils"],
   "scripts": {
     "test": "node ./src/indexBabelRegister.js"
   },
