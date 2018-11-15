@@ -1,11 +1,22 @@
 # @stackr23/conventional-commits-gitmoji
 > git workflow enhancements and third party integrations
 
-## [proposal] [conventionalcommits](https://www.conventionalcommits.org/) - [gitmoji](https://gitmoji.carloscuesta.me/) hook
-* [ ] write npm plugin that creates a git-hook to prefix "structural elements" with gitmojis:  
+## relation table  
+> to be continued
+
+| commit type          | prefix | gitmoji    | versioning |
+|--------------------- |--------|------------|------------|
+| __bug fix__          | fix:   | :bug:      | patch      |
+| __feature__          | feat:  | :sparkles: | minor      |
+| __breaking change__  | fix:   | :boom:     | major      |
+| documentation        | doc:   | :memo:     | —          |
+
+
+## [proposal] [conventionalcommits](https://www.conventionalcommits.org/) - [gitmoji](https://gitmoji.carloscuesta.me/) hook  
+* write npm plugin that creates a git-hook to prefix "structural elements" with gitmojis:  
   `fix: #33 header menu open()` => `:bug: fix: #33 header menu open()`
 
-### roadmap
+## roadmap
 * [ ] __1. - analyse [conventionalcommits](https://www.conventionalcommits.org/)__  
   * [ ] define type of plugin (middleware, plugin, ...?)    
     standalone hook __|__ conventionalcommits-plugin __|__ add gitmoji feature "replace" (not recommended)
@@ -25,12 +36,3 @@
 * [semantic-release](https://github.com/semantic-release/semantic-release)  
 * commitlint / [@commitlint/config-conventional](https://www.npmjs.com/package/@commitlint/config-conventional)  
 * [conventional changelog](https://github.com/conventional-changelog/conventional-changelog)  
-
-## relation table - TBC  
-
-| commit type          | prefix | gitmoji    | versioning |
-|--------------------- |--------|------------|------------|
-| __bug fix__          | fix:   | :bug:      | patch      |
-| __feature__          | feat:  | :sparkles: | minor      |
-| __breaking change__  | fix:   | :boom:     | major      |
-| documentation        | doc:   | :memo:     | —          |
