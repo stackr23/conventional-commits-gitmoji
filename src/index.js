@@ -8,6 +8,9 @@
 // (c) by Stefan Friedl - GNU LGPLv3
 // https://github.com/stackr23/gitmoji-conventional-commits
 
-import path from 'path'
+import Logger from '../utils/stackr23-logger/'
 
-console.log('🎊 Babel7 running!')
+Logger.success('logger running!')
+Logger.error('unexpected bahavior')
+Logger.debug('casual debug info')
+Logger.log('{reset.magenta custom {bgBlackBright.yellow output style}}')

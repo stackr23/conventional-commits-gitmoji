@@ -25,6 +25,7 @@
   "homepage": "https://github.com/stackr23/gitmoji-conventional-commits#readme",
   "devDependencies": {
     "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
     "@babel/preset-env": "^7.1.6",
     "@babel/register": "^7.0.0"
   }
