@@ -1,0 +1,25 @@
+# Environment
+.env
+
+# ignore only the root .htaccess (may contain sensible data)
+.htaccess
+
+# NPM
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# Wordpress
+wp-config.php
+
+# IDE
+.idea
+*.sublime-*
+
+# MISC
+.DS_Store
+
+# dist
+dist/
+build/
