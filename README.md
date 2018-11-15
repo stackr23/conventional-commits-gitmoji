@@ -34,6 +34,21 @@ https://www.conventionalcommits.org/en/v1.0.0-beta.2/
 | tests                | test:     | :white_check_mark: | —          |
 | without topic rel    | —         | favicon            | —          |
 
+__@stackr23/gitmoji-conventional-commits/config.js__
+```javascript
+export default [
+    {prefix: 'fix:',        gitmoji: ':bug:'},              // 🐛
+    {prefix: 'feat:',       gitmoji: ':sparkles'},          // ✨
+    {prefix: 'fix:',        gitmoji: ':boom:'},             //
+    {prefix: 'chore:',      gitmoji: ':wrench:'},           // 🔧
+    {prefix: 'doc:',        gitmoji: ':memo:'},             // 📝
+    {prefix: 'style:',      gitmoji: ':lipstick:'},         // 💄
+    {prefix: 'refactor:',   gitmoji: ':recycle:'},          // ♻
+    {prefix: 'perf:',       gitmoji: ':zap:'},              //
+    {prefix: 'test:',       gitmoji: ':white_check_mark:'}  // ✅
+]
+
+```
 
 ## [proposal] [conventionalcommits](https://www.conventionalcommits.org/) - [gitmoji](https://gitmoji.carloscuesta.me/) hook  
 * write npm plugin that creates a git-hook to prefix "structural elements" with gitmojis:  
@@ -66,3 +81,5 @@ https://www.conventionalcommits.org/en/v1.0.0-beta.2/
 * [semantic-release](https://github.com/semantic-release/semantic-release)  
 * commitlint / [@commitlint/config-conventional](https://www.npmjs.com/package/@commitlint/config-conventional)  
 * [conventional changelog](https://github.com/conventional-changelog/conventional-changelog)  
+
+
