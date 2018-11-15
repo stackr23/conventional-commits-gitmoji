@@ -1,5 +1,5 @@
 # @stackr23/gitmoji-conventional-commits 
-> add gitmojis to conventional commit messages
+> __add gitmojis to conventional commit messages__
 
 [![PRs Welcome][pr-welcome]](http://makeapullrequest.com)
 [![Maintenance][maintenance-img]][maintenance-url]
@@ -15,15 +15,23 @@
 [pr-welcome]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 <!-- /badge urls -->
 
+__detailed specification of conventional-commits:__  
+https://www.conventionalcommits.org/en/v1.0.0-beta.2/
+
 ## relation table  
-> to be continued
 
 | commit type          | prefix | gitmoji    | versioning |
 |--------------------- |--------|------------|------------|
-| __bug fix__          | fix:   | :bug:      | patch      |
-| __feature__          | feat:  | :sparkles: | minor      |
-| __breaking change__  | fix:   | :boom:     | major      |
-| documentation        | doc:   | :memo:     | —          |
+| __bug fix__          | fix:      | :bug:              | patch      |
+| __feature__          | feat:     | :sparkles:         | minor      |
+| __breaking change__  | fix:      | :boom:             | major      |
+| chore tasks          | chore:    | __???__            | —          |
+| documentation        | doc:      | :memo:             | —          |
+| styling              | style:    | :lipstick:         | —          |
+| refactor             | refactor: | :recycle:          | —          |
+| performance          | perf:     | :zap:              | —          |
+| tests                | test:     | :white_check_mark: | —          |
+| without topic rel    | —         | favicon            | —          |
 
 
 ## [proposal] [conventionalcommits](https://www.conventionalcommits.org/) - [gitmoji](https://gitmoji.carloscuesta.me/) hook  
