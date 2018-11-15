@@ -1,0 +1,26 @@
+{
+  "name": "gitmoji-conventional-commits",
+  "version": "1.0.0",
+  "description": "add gitmojis to conventional commit messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stackr23/gitmoji-conventional-commits.git"
+  },
+  "keywords": [
+    "conventional-commits",
+    "gitmoji",
+    "git-hooks",
+    "semantic",
+    "versioning"
+  ],
+  "author": "Stefan Friedl",
+  "license": "GNU LGPLv3",
+  "bugs": {
+    "url": "https://github.com/stackr23/gitmoji-conventional-commits/issues"
+  },
+  "homepage": "https://github.com/stackr23/gitmoji-conventional-commits#readme"
+}
