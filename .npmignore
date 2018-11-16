@@ -30,3 +30,6 @@ wp-config.php
 .eslintignore
 Gulpfile.js
 Gulpfile.babel.js
+test
+utils
+src

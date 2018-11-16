@@ -15,6 +15,13 @@
 [pr-welcome]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 <!-- /badge urls -->
 
+## BETA v1.1.1
+
+__package just exports config__ 
+```javascript
+import gccConfig from '@stackr23/gitmoji-conventional-commits'
+```
+
 __detailed specification of conventional-commits:__  
 https://www.conventionalcommits.org/en/v1.0.0-beta.2/
 

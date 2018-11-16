@@ -1,4 +1,4 @@
 'use strict'
 
-var _gcc = require('./index.js').default
+var _gcc = require('./dist/index.js').default
 module.exports.default = _gcc
