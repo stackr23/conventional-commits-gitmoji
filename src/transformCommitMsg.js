@@ -6,3 +6,7 @@ export const addGitmoji = () => {
 export const addCCPrefix = (commitMsg, emoji) => {
 
 }
+
+export const gitMojiToCC = (gitmojiName) => {
+    return gitmojiName
+}
