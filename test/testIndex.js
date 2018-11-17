@@ -1,4 +1,4 @@
-import logger   from '../utils/stackr23-logger/index.js'
+import logger   from '@stackr23/logger'
 import {emojiConfigFake} from '../dist/extendGitmoji.js'
 import {extendGitmoji} from '../dist/index.js'
 
