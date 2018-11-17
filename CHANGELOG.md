@@ -1,6 +1,13 @@
 # Changelog
 > generated with [@semantic-release/changelog](https://github.com/semantic-release/changelog)
 
+## [2.0.3](https://github.com/stackr23/gitmoji-conventional-commits/compare/v2.0.2...v2.0.3) (2018-11-17)
+
+
+### Bug Fixes
+
+* :bug: getMergedConfig ([55770b5](https://github.com/stackr23/gitmoji-conventional-commits/commit/55770b5))
+
 ## [2.0.2](https://github.com/stackr23/gitmoji-conventional-commits/compare/v2.0.1...v2.0.2) (2018-11-17)
 
 
