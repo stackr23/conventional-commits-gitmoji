@@ -12,7 +12,6 @@ const getMergedConfig   = gitmojiConfig => {
 
     const mappedConfig  = getMappedConfig(gitmojiCCExtension)
     const mergeSync     = conf => {
-        console.log('mappedConfig conf', mappedConfig)
         conf.forEach((emoji, key) => {
             let {name} = emoji
 
