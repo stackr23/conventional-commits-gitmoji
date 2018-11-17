@@ -18,5 +18,20 @@ export const gitMojiToCC = ({name, emoji}, extendedConfig) => {
     logger.debug('extendedConfig')
     console.log(mappedConfig)
 
-    return emoji
+    let emojiExtended = mappedConfig[name],
+        prefix, titlePrefix
+
+    if (emojiExtended == null) {
+        return emoji
+    }
+
+    prefix = emojiExtended.cc_prefix
+
+    if (prefix == null) {
+        return emoji
+    }
+
+    titlePrefix = prefix + ': ' + emoji + ' '
+
+    return titlePrefix
 }
