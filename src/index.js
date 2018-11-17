@@ -11,4 +11,5 @@
 import _extendGitmoji       from './extendGitmoji'
 export const extendGitmoji  = _extendGitmoji
 
-export default _extendGitmoji
+import * as transformFunctions from './transformCommitMsg.js'
+export default transformFunctions
