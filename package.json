@@ -42,7 +42,8 @@
     "plugins": [
       [
         "@semantic-release/commit-analyzer",
-        { "preset": "angular",
+        {
+          "preset": "angular",
           "parserOpts": {
             "noteKeywords": [
               "BREAKING CHANGE",

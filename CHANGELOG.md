@@ -1,6 +1,13 @@
 # Changelog
 > generated with [@semantic-release/changelog](https://github.com/semantic-release/changelog)
 
+## [3.1.1](https://github.com/stackr23/gitmoji-conventional-commits/compare/v3.1.0...v3.1.1) (2018-11-17)
+
+
+### Bug Fixes
+
+* **semanticRelease:** :crossing_fingers: ? fix ? ([b924028](https://github.com/stackr23/gitmoji-conventional-commits/commit/b924028))
+
 # [3.1.0](https://github.com/stackr23/gitmoji-conventional-commits/compare/v3.0.1...v3.1.0) (2018-11-17)
 
 
