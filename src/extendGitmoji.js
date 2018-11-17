@@ -8,20 +8,21 @@ const getMappedConfig = extension => {
     return mappedConfig
 }
 
-const getMergedConfig   = emojiConfig => {
+const getMergedConfig   = getGitmojiConfigPromise => {
     const mappedConfig = getMappedConfig(gitmojiCCExtension)
-    const conf = emojiConfig.gitmojis || emojiConfig
-    conf.forEach((emoji, key) => {
-        let {name} = emoji
+    return getGitmojiConfigPromise.then(conf => {
+        conf.forEach((emoji, key) => {
+            let {name} = emoji
 
-        let extendedEmoji = mappedConfig[name]
-        if (extendedEmoji != null) {
-            let prefix = mappedConfig[name].cc_prefix
-            emojiConfig.gitmojis[key].cc_prefix = prefix
-        }
+            let extendedEmoji = mappedConfig[name]
+            if (extendedEmoji != null) {
+                let prefix = mappedConfig[name].cc_prefix
+                emojiConfig.gitmojis[key].cc_prefix = prefix
+            }
+        })
+
+        return emojiConfig
     })
-
-    return emojiConfig
 }
 
 export const emojiConfigFake = {

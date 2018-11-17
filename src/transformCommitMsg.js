@@ -1,3 +1,5 @@
+
+
 export const addGitmoji = () => {
     // will be used for git-cz, commitlint, changelog, usw
 }
@@ -7,6 +9,8 @@ export const addCCPrefix = (commitMsg, emoji) => {
 
 }
 
-export const gitMojiToCC = (gitmojiName) => {
+export const gitMojiToCC = (gitmojiName, ) => {
+
+
     return gitmojiName
 }
