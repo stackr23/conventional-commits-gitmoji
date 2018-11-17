@@ -1,6 +1,13 @@
 # Changelog
 > generated with [@semantic-release/changelog](https://github.com/semantic-release/changelog)
 
+## [3.1.3](https://github.com/stackr23/gitmoji-conventional-commits/compare/v3.1.2...v3.1.3) (2018-11-17)
+
+
+### Bug Fixes
+
+* **semanticRelease:** move install to travis and remove from package.json ([325f206](https://github.com/stackr23/gitmoji-conventional-commits/commit/325f206))
+
 ## [3.1.2](https://github.com/stackr23/gitmoji-conventional-commits/compare/v3.1.1...v3.1.2) (2018-11-17)
 
 
