@@ -3,10 +3,9 @@
 
 # [2.0.0](https://github.com/stackr23/gitmoji-conventional-commits/compare/v1.1.1...v2.0.0) (2018-11-17)
 
-
 ### Bug Fixes
 
-* **build:** :green_heart: mkdir dist ([fe82f74](https://github.com/stackr23/gitmoji-conventional-commits/commit/fe82f74))
+* **build:** 💚 mkdir dist ([fe82f74](https://github.com/stackr23/gitmoji-conventional-commits/commit/fe82f74))
 
 
 ### Code Refactoring
@@ -16,10 +15,10 @@
 
 ### Features
 
-* **semantic-release:** :sparkles: added CI release on npm ([2853664](https://github.com/stackr23/gitmoji-conventional-commits/commit/2853664))
+* **semantic-release:** ✨ added CI release on npm ([2853664](https://github.com/stackr23/gitmoji-conventional-commits/commit/2853664))
 
 
 ### BREAKING CHANGES
 
-* **config:** config deleted!
+* **config:** 🔥 config deleted!
 package now default exports "extendGitmoji()"
