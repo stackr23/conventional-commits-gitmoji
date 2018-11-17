@@ -9,8 +9,8 @@ export const addCCPrefix = (commitMsg, emoji) => {
 
 }
 
-export const gitMojiToCC = (gitmojiName, ) => {
+export const gitMojiToCC = ({name, emoji}) => {
 
 
-    return gitmojiName
+    return emoji
 }
