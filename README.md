@@ -25,6 +25,9 @@ import gccConfig from '@stackr23/gitmoji-conventional-commits'
 __detailed specification of conventional-commits:__  
 https://www.conventionalcommits.org/en/v1.0.0-beta.2/
 
+__extended type definitions are stated by angular__  
+https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#type
+
 ## relation table  
 
 | commit type          | prefix | gitmoji    | versioning |
@@ -80,6 +83,8 @@ export default [
 
 * [ ] __3. - create commit hook to filter commit messages__  
   make a conventionalcommits feature, if not possible  
+
+* add to git-cz aKa https://github.com/commitizen/cz-cli
 
 ## other conventional-commit tools
 > should be considered into compatibility specations of @stackr23/gitmoji-conventional-commits
