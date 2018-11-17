@@ -1,6 +1,6 @@
 {
   "name": "@stackr23/gitmoji-conventional-commits",
-  "version": "3.1.0",
+  "version": "3.1.2",
   "description": "add gitmojis to conventional commit messages",
   "main": "./dist/index.js",
   "directories": [
