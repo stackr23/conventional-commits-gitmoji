@@ -1,5 +1,3 @@
-import logger from '@stackr23/logger'
-
 import {mappedConfig} from './extendGitmoji.js'
 
 export const addGitmoji = () => {
