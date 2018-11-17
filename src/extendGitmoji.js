@@ -68,6 +68,14 @@ export const gitmojiCCExtension = [
             "cc_prefix": "fix"
         },
         {
+            "emoji":"⚡️",
+            "entity":"&#x26a1;",
+            "code":":zap:",
+            "description":"Improving performance.",
+            "name":"zap",
+            "cc_prefix": "perf"
+        },
+        {
             "emoji": "🚑",
             "entity": "&#128657;",
             "code": ":ambulance:",

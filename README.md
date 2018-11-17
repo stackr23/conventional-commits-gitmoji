@@ -15,11 +15,11 @@
 [pr-welcome]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 <!-- /badge urls -->
 
-## BETA v1.1.1
+## v2
 
-__package just exports config__ 
 ```javascript
-import gccConfig from '@stackr23/gitmoji-conventional-commits'
+import {extendGitmoji}  from '@stackr23/gitmoji-conventional-commits'
+const extendedConfig    = extendGitmoji(GITMOJI/DATA/GITMOJI.json)
 ```
 
 __detailed specification of conventional-commits:__  
@@ -43,48 +43,20 @@ https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#type
 | tests                | test:     | :white_check_mark: | —          |
 | without topic rel    | —         | favicon            | —          |
 
-__@stackr23/gitmoji-conventional-commits/config.js__
-```javascript
-export default [
-    {prefix: 'fix:',        gitmoji: ':bug:'},              // 🐛
-    {prefix: 'feat:',       gitmoji: ':sparkles'},          // ✨
-    {prefix: 'fix:',        gitmoji: ':boom:'},             //
-    {prefix: 'chore:',      gitmoji: ':wrench:'},           // 🔧
-    {prefix: 'doc:',        gitmoji: ':memo:'},             // 📝
-    {prefix: 'style:',      gitmoji: ':lipstick:'},         // 💄
-    {prefix: 'refactor:',   gitmoji: ':recycle:'},          // ♻
-    {prefix: 'perf:',       gitmoji: ':zap:'},              //
-    {prefix: 'test:',       gitmoji: ':white_check_mark:'}  // ✅
-]
+> __TBC__
 
-```
-
-## [proposal] [conventionalcommits](https://www.conventionalcommits.org/) - [gitmoji](https://gitmoji.carloscuesta.me/) hook  
-* write npm plugin that creates a git-hook to prefix "structural elements" with gitmojis:  
-  `fix: #33 header menu open()` => `:bug: fix: #33 header menu open()`
+## [proposal] [conventionalcommits](https://www.conventionalcommits.org/) - [gitmoji](https://gitmoji.carloscuesta.me/)
+suffix "structural elements" with gitmojis
+`fix(header): #33 header menu open()` => `fix(header): :bug: #33 header menu open()`
+* create git-hook 
 * integrations / usage
-  * __git hook__ - just register hook and filter commit message  
-  * __gitmoji-cli__ - see issue #2  
-  * standalone raw parser  
-    like in [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)'s sub-packages
-
-## roadmap
-* [ ] __1. - analyse [conventionalcommits](https://www.conventionalcommits.org/)__  
-  * [ ] define type of plugin (middleware, plugin, ...?)  
-  * as this feature is mainly related to gitmoji (more than to other packages),  
-  it __should be named gitmoji-conventional(-commits)__  
-  standalone hook __|__ conventionalcommits-plugin __|__ add gitmoji feature "replace" (not recommended)
-* [ ] __2. - sync config with gitmoji__  
-  * [ ] add "conventionalcommits.mapping.js" to gitmoji  
-  ```javascript
-  {':bug:': 'fix:',':memo:': 'doc:' {...otherRules} default: 'change:'}
-  ```  
-  (PR into gitmoji repo to keep synced with updates)  
-
-* [ ] __3. - create commit hook to filter commit messages__  
-  make a conventionalcommits feature, if not possible  
-
-* add to git-cz aKa https://github.com/commitizen/cz-cli
+  * standalone raw parser -> extendGitmoji()
+* plugin integration
+    * gitmoji-cli
+    * [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)
+    * commitizien
+    * [semantic-release](https://github.com/semantic-release/semantic-release)
+    * ...
 
 ## other conventional-commit tools
 > should be considered into compatibility specations of @stackr23/gitmoji-conventional-commits
