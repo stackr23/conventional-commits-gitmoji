@@ -14,9 +14,6 @@ branches:
   except:
     - /^v\d+\.\d+\.\d+$/
 
-# before_install:
-#     - npm install -g gulp-cli
-
 install: npm install
 
 script:
@@ -27,10 +24,4 @@ deploy:
   provider: script
   skip_cleanup: true
   script:
-  - npm i semantic-release
-  - npm i @semantic-release/release-notes-generator
-  - npm i @semantic-release/changelog
-  - npm i @semantic-release/git @semantic-release/github
-  - npm i @semantic-release/npm
-    # run
-    - npx semantic-release
+    bash ./deploy.sh
