@@ -18,7 +18,6 @@ const getMergedConfig   = emojiConfig => {
         if (extendedEmoji != null) {
             let prefix = mappedConfig[name].cc_prefix
             emojiConfig.gitmojis[key].cc_prefix = prefix
-            emojiConfig.gitmojis.push(extendedEmoji)
         }
     })
 
