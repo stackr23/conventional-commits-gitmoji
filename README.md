@@ -27,12 +27,7 @@
 import {extendGitmoji}  from '@stackr23/gitmoji-conventional-commits'
 const extendedConfig    = extendGitmoji(GITMOJI/DATA/GITMOJI.json)
 ```
-
-__detailed specification of conventional-commits:__  
-https://www.conventionalcommits.org/en/v1.0.0-beta.2/
-
-__extended type definitions are stated by angular__  
-https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#type
+__adds found `cc_prefix` to gitmoji objects for later usage__
 
 ## relation table  
 
@@ -50,6 +45,13 @@ https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#type
 | without topic rel    | —         | favicon            | —          |
 
 > __TBC__
+
+
+__detailed specification of conventional-commits:__  
+https://www.conventionalcommits.org/en/v1.0.0-beta.2/
+
+__extended type definitions are stated by angular__  
+https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#type
 
 ## plugin PROPOSAL [conventionalcommits](https://www.conventionalcommits.org/) - [gitmoji](https://gitmoji.carloscuesta.me/)
 suffix "structural elements" with gitmojis

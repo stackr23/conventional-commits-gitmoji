@@ -358,14 +358,15 @@ export const gitmojiCCExtension = [
             "code":":boom:",
             "description":"Introducing breaking changes.",
             "name":"boom",
-            "cc_prefix": "BREAKING:"
+            "cc_prefix": "BREAKING CHANGES:"
         },
         {
             "emoji":"🍱",
             "entity":"&#1F371",
             "code":":bento:",
             "description":"Adding or updating assets.",
-            "name":"bento"
+            "name":"bento",
+            "cc_prefix": "style"
         },
         {
             "emoji":"👌",
