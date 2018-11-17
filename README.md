@@ -1,11 +1,11 @@
 # @stackr23/gitmoji-conventional-commits 
 > __add gitmojis to conventional commit messages__
 
-[![Build Status](https://travis-ci.com/stackr23/gitmoji-conventional-commit.svg?branch=master)](https://travis-ci.com/stackr23/gitmoji-conventional-commit)
-[![Greenkeeper badge](https://badges.greenkeeper.io/stackr23/gitmoji-conventional-commit.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.com/stackr23/gitmoji-conventional-commits.svg?branch=master)](https://travis-ci.com/stackr23/gitmoji-conventional-commit)
+[![Greenkeeper badge](https://badges.greenkeeper.io/stackr23/gitmoji-conventional-commits.svg)](https://greenkeeper.io/)
 [![Maintenance][maintenance-img]][maintenance-url]
 [![PRs Welcome][pr-welcome]](http://makeapullrequest.com)<br />
-[![npm version](https://img.shields.io/npm/v/%40stackr23%2Fgitmoji-conventional-commit.svg)](http://npm.im/@stackr23/gitmoji-conventional-commit)
+[![npm version](https://img.shields.io/npm/v/%40stackr23%2Fgitmoji-conventional-commits.svg)](http://npm.im/@stackr23/gitmoji-conventional-commits)
 [![Conventional Commits](https://img.shields.io/badge/✔-Conventional%20Commits-blue.svg)](https://conventionalcommits.org) 
 [![Semantic Versioning][semantic-img]][semantic-url]
 [![GitMoji][gitmoji-img]][gitmoji-url]
