@@ -6,6 +6,6 @@ import {extendGitmoji} from '../dist/index.js'
 logger.debug("typeof extendGitmoji'\n")
 console.log(typeof extendGitmoji)
 
-const extendedGitmoji = extendGitmoji(emojiConfigFake)
+const extendedGitmoji = extendGitmoji(emojiConfigFake.gitmojis)
 logger.debug("extended extendGitmoji'\n")
 console.log(extendedGitmoji)
