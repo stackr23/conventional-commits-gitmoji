@@ -1,4 +1,4 @@
-import {debug} from '@stackr23/logger'
+import logger from '@stackr23/logger'
 
 export const addGitmoji = () => {
     // will be used for git-cz, commitlint, changelog, usw
@@ -10,7 +10,7 @@ export const addCCPrefix = (commitMsg, emoji) => {
 }
 
 export const gitMojiToCC = ({name, emoji}, extendedConfig) => {
-    debug('gitMojiToCC -> {name, emoji}')
+    logger.debug('gitMojiToCC -> emojiObject .name and .emojiSS')
     console.log({name, emoji})
 
     return emoji
