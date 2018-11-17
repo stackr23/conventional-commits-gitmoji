@@ -13,5 +13,8 @@ export const gitMojiToCC = ({name, emoji}, extendedConfig) => {
     logger.debug('gitMojiToCC -> emojiObject .name and .emojiSS')
     console.log({name, emoji})
 
+    logger.debug('extendedConfig')
+    console.log(extendedConfig)
+
     return emoji
 }
