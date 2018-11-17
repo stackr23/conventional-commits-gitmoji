@@ -1,6 +1,13 @@
 # Changelog
 > generated with [@semantic-release/changelog](https://github.com/semantic-release/changelog)
 
+## [2.0.1](https://github.com/stackr23/gitmoji-conventional-commits/compare/v2.0.0...v2.0.1) (2018-11-17)
+
+
+### Bug Fixes
+
+* **ci:** typo in CI ([f3a07cb](https://github.com/stackr23/gitmoji-conventional-commits/commit/f3a07cb))
+
 # [2.0.0](https://github.com/stackr23/gitmoji-conventional-commits/compare/v1.1.1...v2.0.0) (2018-11-17)
 
 ### Bug Fixes
