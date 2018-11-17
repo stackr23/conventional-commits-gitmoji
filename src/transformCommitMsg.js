@@ -30,7 +30,7 @@ export const gitMojiToCC = ({name, emoji}, extendedConfig) => {
         return emoji
     }
 
-    titlePrefix = prefix + '(emoji):'
+    titlePrefix = `${prefix}(${emoji}):`
 
     return titlePrefix
 }
