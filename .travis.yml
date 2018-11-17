@@ -26,14 +26,16 @@ script:
   # - npm run travis-deploy-once "npm run semantic-release"
   # - npm run semantic-release
 
+after_success:
+  - npm i semantic-release
+  - npm i @semantic-release/release-notes-generator
+  - npm i @semantic-release/changelog
+  - npm i @semantic-release/git @semantic-release/github
+  - npm i @semantic-release/npm
+
 deploy:
   provider: script
   skip_cleanup: true
   script:
-    - npm i semantic-release
-    - npm i @semantic-release/release-notes-generator
-    - npm i @semantic-release/changelog
-    - npm i @semantic-release/git @semantic-release/github
-    - npm i @semantic-release/npm
     # run
     - npx semantic-release

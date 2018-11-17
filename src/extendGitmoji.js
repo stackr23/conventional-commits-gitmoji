@@ -5,7 +5,6 @@ const getMappedConfig = extension => {
     extension.forEach(gitmoji => {
         mappedConfig[gitmoji.name] = gitmoji
     })
-    console.log('mappedConfig', mappedConfig)
     return mappedConfig
 }
 
