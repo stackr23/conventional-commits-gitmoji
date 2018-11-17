@@ -21,8 +21,24 @@
 [semantic-url]: https://semver.org/
 <!-- /badge urls -->
 
-## v2
+## v3
 
+__gitMojiToCC__  
+> __TBD - atm just returns the input value to be stable__  
+
+```javascript
+import {gitMojiToCC}  from '@stackr23/gitmoji-conventional-commits'
+const emoji           {name: 'zap', emoji: ':zap:'}
+const prefixedGitmoji = gitMojiToCC({name, emoji})
+console.log(prefixedGitmoji)
+// => 'perf(:zap:):'
+```
+
+__TBD - advanced format__
+* [ ] use scope if added - `fix(<scope>): 🐛`
+    * add scope to promots.gitmoji
+
+__extendGitmoji__  
 ```javascript
 import {extendGitmoji}  from '@stackr23/gitmoji-conventional-commits'
 const extendedConfig    = extendGitmoji(GITMOJI/DATA/GITMOJI.json)
