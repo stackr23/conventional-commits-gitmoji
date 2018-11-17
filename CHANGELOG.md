@@ -1,6 +1,24 @@
 # Changelog
 > generated with [@semantic-release/changelog](https://github.com/semantic-release/changelog)
 
+# [3.0.0](https://github.com/stackr23/gitmoji-conventional-commits/compare/v2.0.3...v3.0.0) (2018-11-17)
+
+
+### Bug Fixes
+
+* **merge:** 🐛fixxed double concatination ([40425b6](https://github.com/stackr23/gitmoji-conventional-commits/commit/40425b6))
+
+
+### Features
+
+* **transformCommitMsg:**  ✨ export const transformFunctions ([6ac24c9](https://github.com/stackr23/gitmoji-conventional-commits/commit/6ac24c9))
+* **transformCommitMsg:** :sparkles: gitMojiToCC() ([11bb9e4](https://github.com/stackr23/gitmoji-conventional-commits/commit/11bb9e4))
+
+
+### BREAKING CHANGES
+
+* **transformCommitMsg:** {object} transformFunctions is now the default export of index
+
 ## [2.0.3](https://github.com/stackr23/gitmoji-conventional-commits/compare/v2.0.2...v2.0.3) (2018-11-17)
 
 
