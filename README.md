@@ -24,14 +24,13 @@
 ## v3
 
 __gitMojiToCC__  
-> __TBD - atm just returns the input value to be stable__  
 
 ```javascript
 import {gitMojiToCC}  from '@stackr23/gitmoji-conventional-commits'
-const emoji           {name: 'zap', emoji: ':zap:'}
+const emoji           {name: 'zap', emoji: '⚡️'}
 const prefixedGitmoji = gitMojiToCC({name, emoji})
 console.log(prefixedGitmoji)
-// => 'perf(:zap:):'
+// => 'perf(⚡️):'
 ```
 
 __TBD - advanced format__

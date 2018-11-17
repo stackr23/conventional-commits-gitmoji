@@ -114,7 +114,7 @@ export const gitmojiCCExtension = [
             "code":":rocket:",
             "description":"Deploying stuff.",
             "name":"rocket",
-            "cc_prefix": "release"
+            "cc_prefix": "chore"
         },
         {
             "emoji":"💄",
@@ -193,7 +193,7 @@ export const gitmojiCCExtension = [
             "code":":bookmark:",
             "description":"Releasing / Version tags.",
             "name":"bookmark",
-            "cc_prefix": "release"
+            "cc_prefix": "chore"
         },
         {
             "emoji":"🚨",

@@ -12,12 +12,6 @@ export const addCCPrefix = (commitMsg, emoji) => {
 }
 
 export const gitMojiToCC = ({name, emoji}, extendedConfig) => {
-    logger.debug('gitMojiToCC -> emojiObject .name and .emojiSS')
-    console.log({name, emoji})
-
-    logger.debug('extendedConfig')
-    console.log(mappedConfig)
-
     let emojiExtended = mappedConfig[name],
         prefix, titlePrefix
 
@@ -27,11 +21,16 @@ export const gitMojiToCC = ({name, emoji}, extendedConfig) => {
 
     prefix = emojiExtended.cc_prefix
 
+    // TBD: scope = emojiExtended.cc_prefix
+    // prefix(scope): emoji
+
+    prefix = emojiExtended.cc_prefix
+
     if (prefix == null) {
         return emoji
     }
 
-    titlePrefix = prefix + ': ' + emoji + ' '
+    titlePrefix = prefix + '(emoji):'
 
     return titlePrefix
 }
