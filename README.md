@@ -51,7 +51,7 @@ https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#type
 
 > __TBC__
 
-## [proposal] [conventionalcommits](https://www.conventionalcommits.org/) - [gitmoji](https://gitmoji.carloscuesta.me/)
+## plugin PROPOSAL [conventionalcommits](https://www.conventionalcommits.org/) - [gitmoji](https://gitmoji.carloscuesta.me/)
 suffix "structural elements" with gitmojis
 `fix(header): #33 header menu open()` => `fix(header): :bug: #33 header menu open()`
 * create git-hook 
