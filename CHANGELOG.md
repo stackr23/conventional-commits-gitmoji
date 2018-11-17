@@ -1,6 +1,13 @@
 # Changelog
 > generated with [@semantic-release/changelog](https://github.com/semantic-release/changelog)
 
+## [3.1.4](https://github.com/stackr23/gitmoji-conventional-commits/compare/v3.1.3...v3.1.4) (2018-11-17)
+
+
+### Bug Fixes
+
+* **deps:** :fire: removed release-notes-generator ([2a2bb6a](https://github.com/stackr23/gitmoji-conventional-commits/commit/2a2bb6a))
+
 ## [3.1.3](https://github.com/stackr23/gitmoji-conventional-commits/compare/v3.1.2...v3.1.3) (2018-11-17)
 
 
