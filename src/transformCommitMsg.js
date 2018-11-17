@@ -1,5 +1,7 @@
 import logger from '@stackr23/logger'
 
+import {mappedConfig} from './extendGitmoji.js'
+
 export const addGitmoji = () => {
     // will be used for git-cz, commitlint, changelog, usw
 }
@@ -14,7 +16,7 @@ export const gitMojiToCC = ({name, emoji}, extendedConfig) => {
     console.log({name, emoji})
 
     logger.debug('extendedConfig')
-    console.log(extendedConfig)
+    console.log(mappedConfig)
 
     return emoji
 }
