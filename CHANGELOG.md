@@ -1,6 +1,13 @@
 # Changelog
 > generated with [@semantic-release/changelog](https://github.com/semantic-release/changelog)
 
+## [3.0.1](https://github.com/stackr23/gitmoji-conventional-commits/compare/v3.0.0...v3.0.1) (2018-11-17)
+
+
+### Bug Fixes
+
+* **getMergedConfig:** const conf = emojiConfig.gitmojis || emojiConfig ([8f913f7](https://github.com/stackr23/gitmoji-conventional-commits/commit/8f913f7))
+
 # [3.0.0](https://github.com/stackr23/gitmoji-conventional-commits/compare/v2.0.3...v3.0.0) (2018-11-17)
 
 
