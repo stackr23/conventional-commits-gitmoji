@@ -1,7 +1,7 @@
 # @stackr23/gitmoji-conventional-commits 
 > __add gitmojis to conventional commit messages__
 
-[![Build Status](https://travis-ci.com/stackr23/gitmoji-conventional-commits.svg?branch=master)](https://travis-ci.com/stackr23/gitmoji-conventional-commit)
+[![Build Status](https://travis-ci.com/stackr23/gitmoji-conventional-commits.svg?branch=master)](https://travis-ci.com/stackr23/gitmoji-conventional-commits)
 [![Greenkeeper badge](https://badges.greenkeeper.io/stackr23/gitmoji-conventional-commits.svg)](https://greenkeeper.io/)
 [![Maintenance][maintenance-img]][maintenance-url]
 [![PRs Welcome][pr-welcome]](http://makeapullrequest.com)<br />
