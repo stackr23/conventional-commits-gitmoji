@@ -1,18 +1,24 @@
 # @stackr23/gitmoji-conventional-commits 
 > __add gitmojis to conventional commit messages__
 
-[![PRs Welcome][pr-welcome]](http://makeapullrequest.com)
+[![Build Status](https://travis-ci.com/stackr23/gitmoji-conventional-commit.svg?branch=master)](https://travis-ci.com/stackr23/gitmoji-conventional-commit)
+[![Greenkeeper badge](https://badges.greenkeeper.io/stackr23/gitmoji-conventional-commit.svg)](https://greenkeeper.io/)
 [![Maintenance][maintenance-img]][maintenance-url]
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+[![PRs Welcome][pr-welcome]](http://makeapullrequest.com)<br />
+[![npm version](https://img.shields.io/npm/v/%40stackr23%2Fgitmoji-conventional-commit.svg)](http://npm.im/@stackr23/gitmoji-conventional-commit)
+[![Conventional Commits](https://img.shields.io/badge/✔-Conventional%20Commits-blue.svg)](https://conventionalcommits.org) 
+[![Semantic Versioning][semantic-img]][semantic-url]
 [![GitMoji][gitmoji-img]][gitmoji-url]
 
-<!-- badge urls - colors: #44CC11, #FFDD67, #FF5A79 -->
 
-[gitmoji-img]: https://img.shields.io/badge/%F0%9F%98%BB-gitmoji-FFDD67.svg?style=flat-square?style=flat-square  
+<!-- badge urls -->
+[gitmoji-img]: https://img.shields.io/badge/%F0%9F%98%BB-gitmoji-F2BF00.svg
 [gitmoji-url]: https://gitmoji.carloscuesta.me  
-[maintenance-img]: https://img.shields.io/badge/Maintained%3F-yes-green.svg
+[maintenance-img]: https://img.shields.io/badge/Maintained-yes-brightgreen.svg
 [maintenance-url]: https://GitHub.com/stackR23/react23/graphs/commit-activity
-[pr-welcome]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+[pr-welcome]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
+[semantic-img]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-blue.svg
+[semantic-url]: https://semver.org/
 <!-- /badge urls -->
 
 ## v2

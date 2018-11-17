@@ -89,7 +89,7 @@
             "gitbash-output.png",
             "README.md"
           ],
-          "message": "chore(release): :bookmark: ${nextRelease.version} :package: package :rocket: published\n\n${nextRelease.notes}"
+          "message": "chore(release): 🔖 ${nextRelease.version} 📦 package 🚀 published\n\n${nextRelease.notes}"
         }
       ],
       "@semantic-release/npm",
