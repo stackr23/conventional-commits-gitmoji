@@ -1,6 +1,6 @@
 {
   "name": "@stackr23/gitmoji-conventional-commits",
-  "version": "3.2.2",
+  "version": "3.2.4",
   "description": "add gitmojis to conventional commit messages",
   "main": "./dist/index.js",
   "directories": [
@@ -97,12 +97,5 @@
       "@semantic-release/github"
     ]
   },
-  "dependencies": {
-    "@semantic-release/changelog": "^3.0.1",
-    "@semantic-release/git": "^7.0.5",
-    "@semantic-release/github": "^5.2.1",
-    "@semantic-release/npm": "^5.1.1",
-    "@semantic-release/release-notes-generator": "^7.1.4",
-    "semantic-release": "^15.12.0"
-  }
+  "dependencies": {}
 }
