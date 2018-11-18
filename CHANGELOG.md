@@ -1,6 +1,13 @@
 # Changelog
 > generated with [@semantic-release/changelog](https://github.com/semantic-release/changelog)
 
+## [3.2.6](https://github.com/stackr23/gitmoji-conventional-commits/compare/v3.2.5...v3.2.6) (2018-11-18)
+
+
+### Bug Fixes
+
+* **ci:** travis cache npm ([052103a](https://github.com/stackr23/gitmoji-conventional-commits/commit/052103a))
+
 ## [3.2.5](https://github.com/stackr23/gitmoji-conventional-commits/compare/v3.2.4...v3.2.5) (2018-11-18)
 
 
