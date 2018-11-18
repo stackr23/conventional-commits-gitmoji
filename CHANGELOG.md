@@ -1,6 +1,13 @@
 # Changelog
 > generated with [@semantic-release/changelog](https://github.com/semantic-release/changelog)
 
+## [3.2.5](https://github.com/stackr23/gitmoji-conventional-commits/compare/v3.2.4...v3.2.5) (2018-11-18)
+
+
+### Bug Fixes
+
+* **deps:** :heavy_plus_sign: package-lock ([6b99375](https://github.com/stackr23/gitmoji-conventional-commits/commit/6b99375))
+
 ## [3.2.4](https://github.com/stackr23/gitmoji-conventional-commits/compare/v3.2.3...v3.2.4) (2018-11-18)
 
 
