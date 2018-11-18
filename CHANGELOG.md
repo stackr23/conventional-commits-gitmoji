@@ -1,6 +1,13 @@
 # Changelog
 > generated with [@semantic-release/changelog](https://github.com/semantic-release/changelog)
 
+## [3.2.8](https://github.com/stackr23/gitmoji-conventional-commits/compare/v3.2.7...v3.2.8) (2018-11-18)
+
+
+### Bug Fixes
+
+* **gitRelase:** remove package.json from release commit ([8ed39ac](https://github.com/stackr23/gitmoji-conventional-commits/commit/8ed39ac))
+
 ## [3.2.7](https://github.com/stackr23/gitmoji-conventional-commits/compare/v3.2.6...v3.2.7) (2018-11-18)
 
 
