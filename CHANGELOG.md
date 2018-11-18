@@ -1,6 +1,14 @@
 # Changelog
 > generated with [@semantic-release/changelog](https://github.com/semantic-release/changelog)
 
+## [3.2.7](https://github.com/stackr23/gitmoji-conventional-commits/compare/v3.2.6...v3.2.7) (2018-11-18)
+
+
+### Bug Fixes
+
+* **npm:** !npmignore npm locks ([a9302dd](https://github.com/stackr23/gitmoji-conventional-commits/commit/a9302dd))
+* **npm:** !npmignore npm locks ([668286d](https://github.com/stackr23/gitmoji-conventional-commits/commit/668286d))
+
 ## [3.2.6](https://github.com/stackr23/gitmoji-conventional-commits/compare/v3.2.5...v3.2.6) (2018-11-18)
 
 
