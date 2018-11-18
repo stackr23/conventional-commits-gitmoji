@@ -1,6 +1,13 @@
 # Changelog
 > generated with [@semantic-release/changelog](https://github.com/semantic-release/changelog)
 
+## [3.2.2](https://github.com/stackr23/gitmoji-conventional-commits/compare/v3.2.1...v3.2.2) (2018-11-18)
+
+
+### Bug Fixes
+
+* **deps:** :heavy_minus_sign: remove [@semantic-release](https://github.com/semantic-release) from deps ([2faf160](https://github.com/stackr23/gitmoji-conventional-commits/commit/2faf160))
+
 ## [3.2.1](https://github.com/stackr23/gitmoji-conventional-commits/compare/v3.2.0...v3.2.1) (2018-11-18)
 
 
