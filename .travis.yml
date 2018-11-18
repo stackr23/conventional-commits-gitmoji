@@ -3,9 +3,9 @@ notifications:
 
 language: node_js
 node_js: 9
-# cache:
-#   directories:
-#     - ~/.npm
+cache:
+  directories:
+    - ~/.npm
 
 branches:
   only:
