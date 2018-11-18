@@ -1,6 +1,13 @@
 # Changelog
 > generated with [@semantic-release/changelog](https://github.com/semantic-release/changelog)
 
+## [3.2.3](https://github.com/stackr23/gitmoji-conventional-commits/compare/v3.2.2...v3.2.3) (2018-11-18)
+
+
+### Bug Fixes
+
+* **ci:** semantic-release ([570315e](https://github.com/stackr23/gitmoji-conventional-commits/commit/570315e))
+
 ## [3.2.2](https://github.com/stackr23/gitmoji-conventional-commits/compare/v3.2.1...v3.2.2) (2018-11-18)
 
 
