@@ -1,6 +1,13 @@
 # Changelog
 > generated with [@semantic-release/changelog](https://github.com/semantic-release/changelog)
 
+## [3.2.10](https://github.com/stackr23/gitmoji-conventional-commits/compare/v3.2.9...v3.2.10) (2018-11-19)
+
+
+### Bug Fixes
+
+* ♻️ - new prefix format "${prefix}: ${emoji} -" ([157b0de](https://github.com/stackr23/gitmoji-conventional-commits/commit/157b0de))
+
 ## [3.2.9](https://github.com/stackr23/gitmoji-conventional-commits/compare/v3.2.8...v3.2.9) (2018-11-18)
 
 
