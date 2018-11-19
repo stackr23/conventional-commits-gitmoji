@@ -1,6 +1,14 @@
 # Changelog
 > generated with [@semantic-release/changelog](https://github.com/semantic-release/changelog)
 
+## [3.2.9](https://github.com/stackr23/gitmoji-conventional-commits/compare/v3.2.8...v3.2.9) (2018-11-18)
+
+
+### Bug Fixes
+
+* **yarn:** added yarn lock ([e767907](https://github.com/stackr23/gitmoji-conventional-commits/commit/e767907))
+* **deps:** shoved semantic-release into dev deps ([a3a5b96](https://github.com/stackr23/gitmoji-conventional-commits/commit/a3a5b96))
+
 ## [3.2.8](https://github.com/stackr23/gitmoji-conventional-commits/compare/v3.2.7...v3.2.8) (2018-11-18)
 
 
